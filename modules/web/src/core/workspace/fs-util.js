@@ -49,6 +49,8 @@ export function update(path, name, content) {
     return new Promise((resolve, reject) => {
         axios.post(serviceEP, data, { headers: COMMON_HEADERS })
             .then((response) => {
+
+                
                 resolve(true);
             }).catch(error => reject(error));
     });

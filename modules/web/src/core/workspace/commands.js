@@ -40,6 +40,9 @@ export function getCommandDefinitions() {
                 default: 'ctrl+shift+s',
             },
         },
+
+
+        
         {
             id: COMMANDS.SHOW_FILE_OPEN_WIZARD,
             shortcut: {
